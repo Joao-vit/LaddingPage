@@ -1,0 +1,121 @@
+body::-webkit-scrollbar {
+  width: 14px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(75,0,130);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(25,25,112);    /* color of the scroll thumb */
+  border-radius: 14px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(75,0,130);  /* creates padding around scroll thumb */
+}
+/*Settings for styling the scrollbar*/ /*Configurações para estilizar a barra de rolagem*/
+
+body{
+  background-image: linear-gradient(to right, rgb(25,25,112), rgb(75,0,130));
+  color: white;
+  font-family: poppinsregular;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title{
+  flex-direction: column;
+  line-height: 10px;
+}
+
+li{
+  display: inline-block;
+  margin: 25px;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: rgb(238,130,238);
+  transition: 0.6s all ;
+}
+
+#escrevasebotton{
+  border: 2px solid rgb(238,130,238);
+  padding: 10px;
+  border-radius: 17px;
+  
+}
+
+#escrevasebotton:hover{
+  background-color: rgb(238,130,238);
+  color: white;
+  transition: 0.5s ;
+}
+
+
+h1{
+  font-weight: 200;
+}
+
+main{
+  display:  flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2{
+  font-size: 56px;
+  line-height: 10px;
+  font-family: poppinsmedium;
+}
+
+span{
+  color: rgb(238,130,238);
+}
+
+p{
+  line-height: 20px;
+  max-width: 500px;
+  font-family: poppinslight;
+}
+
+img{
+  width: 560px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  form [type="submit"]{
+    height: 50px ;
+    width: 50%;
+    background-color: rgb(238,130,238);
+    color: white;
+    font-weight: bold;
+  }
+
+  form [type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(243, 151, 243);
+  }
+
+  input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+  }
